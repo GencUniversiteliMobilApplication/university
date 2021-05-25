@@ -1,0 +1,2 @@
+# GencUniversiteliMobilApplication
+ final odevi
