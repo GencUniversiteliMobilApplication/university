@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-
+     android:background="@drawable/orange"
     android:id="@+id/layout"
     >
 
@@ -45,7 +45,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="188dp"
-        android:background="@android:color/holo_orange_dark"
+        android:background="@drawable/buttonshape"
         android:text="Bölümüne Sor"
         android:textColor="#fff" />
 
@@ -53,29 +53,29 @@
         android:id="@+id/uzman1"
         android:layout_width="273dp"
         android:layout_height="91dp"
-
+        android:background="@drawable/buttonshape"
 
         android:layout_alignStart="@+id/uzman"
 
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="72dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="Kopyala Yapıştır"
+
+        android:text="Kopyala Yapıştır(eksik)"
         android:textColor="#fff" />
 
     <Button
         android:id="@+id/ogretmenine_sor"
         android:layout_width="273dp"
         android:layout_height="91dp"
-
+        android:background="@drawable/buttonshape"
 
         android:layout_alignStart="@+id/uzman"
 
         android:layout_alignParentBottom="true"
         android:layout_marginStart="6dp"
         android:layout_marginBottom="302dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="Öğretmenine Sor"
+
+        android:text="Öğretmenine Sor(eksik)"
         android:textColor="#fff" />
 
 
