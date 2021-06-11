@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MuhendislikActivity"
+    android:background="@drawable/orange"
     android:id="@+id/layout">
 
     <LinearLayout
@@ -35,11 +36,11 @@
 
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="8dp"
-                    android:text="Ders1"
+                    android:text="Mühendislik Proje Önerileri"
                     android:textColor="@android:color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    tools:text="Ders1" />
+                    tools:text="Mühendislik Proje Önerileri" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -52,7 +53,6 @@
                         android:id="@+id/yenipost3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ÇOK"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -61,14 +61,13 @@
                         android:layout_width="17dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="     YAKINDA" />
+                        android:text="     " />
 
                     <TextView
                         android:id="@+id/time3"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:text="SİZLERLE" />
+                        android:layout_weight="1" />
 
 
                 </LinearLayout>
@@ -77,24 +76,12 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/descreption3"
-            android:layout_width="364dp"
-            android:layout_height="46dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
-            android:padding="3dp"
-
-            android:text="Cumartesi günleri 22.00-23.00 sorularınızı sorabilirsiniz "
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
         <Button
             android:id="@+id/muhendislik_ders1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@android:color/holo_green_light"
+            android:background="@drawable/buttonshape"
             android:text="Sorularını Sor"
             android:textColor="#fff" />
 
@@ -128,11 +115,11 @@
 
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="8dp"
-                    android:text="Ders2"
+                    android:text="Mühendislik Bölümüne Sor"
                     android:textColor="@android:color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    tools:text="Ders2" />
+                    tools:text="Mühendislik Bölümüne Sor" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -145,7 +132,6 @@
                         android:id="@+id/yenipost4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ÇOK"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -154,14 +140,13 @@
                         android:layout_width="17dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="   YAKINDA" />
+                        android:text="   " />
 
                     <TextView
                         android:id="@+id/time4"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:text="SİZLERLE" />
+                        android:layout_weight="1" />
 
 
                 </LinearLayout>
@@ -170,25 +155,13 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/descreption4"
-            android:layout_width="364dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
-            android:padding="3dp"
-
-            android:text="Cumartesi günleri 22.00-23.00 sorularınızı sorabilirsiniz "
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
         <Button
             android:id="@+id/muhendislik_ders2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@android:color/holo_green_light"
             android:text="Sorularını Sor"
+            android:background="@drawable/buttonshape"
             android:textColor="#fff" />
 
     </LinearLayout>
@@ -221,11 +194,11 @@
 
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="8dp"
-                    android:text="Ders3"
+                    android:text="Mühendislik Bölümü Sosyal Aktiviteler"
                     android:textColor="@android:color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    tools:text="Ders3" />
+                    tools:text="Mühendislik Bölümü Sosyal Aktiviteler" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -238,7 +211,6 @@
                         android:id="@+id/yenipost5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ÇOK"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -246,15 +218,13 @@
                         android:id="@+id/date5"
                         android:layout_width="17dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="    YAKINDA" />
+                        android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/time5"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:text="SİZLERLE" />
+                        android:layout_weight="1" />
 
 
                 </LinearLayout>
@@ -263,24 +233,12 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/descreption5"
-            android:layout_width="347dp"
-            android:layout_height="38dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
-            android:padding="3dp"
-
-            android:text="Cumartesi günleri 22.00-23.00 sorularınızı sorabilirsiniz "
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
         <Button
             android:id="@+id/muhendislik_ders3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@android:color/holo_green_light"
+            android:background="@drawable/buttonshape"
             android:text="Sorularını Sor"
             android:textColor="#fff" />
 

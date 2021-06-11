@@ -26,7 +26,7 @@ public class MuhendislikMimarlikActivity extends AppCompatActivity {
         mimarlik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent sosyolog=new Intent(MuhendislikMimarlikActivity.this,MimarlikActivity.class);
+                Intent sosyolog=new Intent(MuhendislikMimarlikActivity.this,MimarlikSorActivity.class);
                 startActivity(sosyolog);
             }
         });

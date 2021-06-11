@@ -20,7 +20,7 @@ public class MuhendislikActivity extends AppCompatActivity {
         muhendislik_ders1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ders1=new Intent(MuhendislikActivity.this,MuhendislikSorActivity.class);
+                Intent ders1=new Intent(MuhendislikActivity.this,MuhendislikProjeOnerileriActivity.class);
                 startActivity(ders1);
             }
         });
@@ -34,7 +34,7 @@ public class MuhendislikActivity extends AppCompatActivity {
         muhendislik_ders3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ders3=new Intent(MuhendislikActivity.this,MuhendislikSorActivity.class);
+                Intent ders3=new Intent(MuhendislikActivity.this,MuhendislikSosyalAktivitelerActivity.class);
                 startActivity(ders3);
             }
         });

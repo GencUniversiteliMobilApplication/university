@@ -17,6 +17,9 @@ public class BolumuneSorActivity extends AppCompatActivity {
         hukuk=(Button)findViewById(R.id.hukuk);
         isletme=(Button)findViewById(R.id.isletme);
         egitim_ögretim=(Button)findViewById(R.id.egitim_ogretim);
+        saglik_tip=(Button)findViewById(R.id.saglik_tip);
+
+
         muhendislik_mimarlik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,25 +30,31 @@ public class BolumuneSorActivity extends AppCompatActivity {
         hukuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent hukuk=new Intent(BolumuneSorActivity.this,HukukSorActivity.class);
+                Intent hukuk=new Intent(BolumuneSorActivity.this,HukukActivity.class);
                 startActivity(hukuk);
             }
         });
         isletme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent isletme=new Intent(BolumuneSorActivity.this,IsletmeSorActivity.class);
+                Intent isletme=new Intent(BolumuneSorActivity.this,IsletmeActivity.class);
                 startActivity(isletme);
             }
         });
         egitim_ögretim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent egitim=new Intent(BolumuneSorActivity.this,EgitimSorActivity.class);
+                Intent egitim=new Intent(BolumuneSorActivity.this,EgitimActivity.class);
                 startActivity(egitim);
             }
         });
 
-
+        saglik_tip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent egitim=new Intent(BolumuneSorActivity.this,TipVeterinerlikActivity.class);
+                startActivity(egitim);
+            }
+        });
     }
 }

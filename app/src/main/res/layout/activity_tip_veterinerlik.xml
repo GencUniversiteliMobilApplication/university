@@ -35,11 +35,11 @@
 
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="8dp"
-                    android:text="Muhendislik"
+                    android:text="Tıp"
                     android:textColor="@android:color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    tools:text="Muhendislik" />
+                    tools:text="Tıp" />
 
 
 
@@ -50,7 +50,7 @@
 
 
         <Button
-            android:id="@+id/muhendislik"
+            android:id="@+id/tip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -88,11 +88,11 @@
 
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="8dp"
-                    android:text="Mimarlik"
+                    android:text="Veterinerlik"
                     android:textColor="@android:color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    tools:text="Mimarlik" />
+                    tools:text="Veterinerlik" />
 
 
 
@@ -103,7 +103,7 @@
 
 
         <Button
-            android:id="@+id/mimarlik"
+            android:id="@+id/veterinerlik"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

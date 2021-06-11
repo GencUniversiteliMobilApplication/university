@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:id="@+id/layout"
+    android:background="@drawable/orange"
     >
 
     <ImageView
@@ -25,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="@string/app_name"
-        android:textColor="@color/yellow"
+        android:textColor="@color/black"
         android:textSize="55sp" />
 
     <ImageView
@@ -46,8 +47,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="125dp"
-        android:background="@android:color/holo_orange_dark"
+
         android:text="HESABIM VAR"
+        android:background="@drawable/buttonshape"
         android:textColor="@android:color/white"/>
 
     <Button
@@ -58,7 +60,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="53dp"
-        android:background="@android:color/holo_orange_dark"
+        android:background="@drawable/buttonshape"
         android:text="YENİ HESAP OLUŞTUR"
         android:textColor="@android:color/white" />
 

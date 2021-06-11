@@ -122,7 +122,7 @@ public class TipSorPostsActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful()){
-                            startActivity(new Intent(TipSorPostsActivity.this,EgitimSorActivity.class));
+                            startActivity(new Intent(TipSorPostsActivity.this,TipSorActivity.class));
                             finish();
 
                         }
