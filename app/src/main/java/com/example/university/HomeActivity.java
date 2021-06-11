@@ -88,21 +88,9 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
-        uzman1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent uzman1=new Intent(HomeActivity.this,MainActivity.class);
-                startActivity(uzman1);
-            }
-        });
 
-        ogretmenie_sor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent uzman1=new Intent(HomeActivity.this,MainActivity.class);
-                startActivity(uzman1);
-            }
-        });
+
+
 
 
 
