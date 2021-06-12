@@ -26,7 +26,7 @@ public class TipVeterinerlikActivity extends AppCompatActivity {
         veterinerlik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent veteriner=new Intent(TipVeterinerlikActivity.this,VeterinerlikSorActivity.class);
+                Intent veteriner=new Intent(TipVeterinerlikActivity.this,VeterinerlikActivity.class);
                 startActivity(veteriner);
             }
         });
